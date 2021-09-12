@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88DDE8"
+    tools:context=".ui.MainActivity4">
+
+    <Button
+        android:id="@+id/btn_Doctors"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#EF3F3F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/doctors"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_bloodbank"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn_bloodbank"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#EF3F3F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/blood_bank"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toEndOf="@+id/btn_Doctors"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn_Clinics"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="268dp"
+        android:backgroundTint="#EF3F3F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/clinics"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Doctors"
+        app:layout_constraintVertical_bias="0.41"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn_intensivecareunit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="#EF3F3F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/intensive_care_unit"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Ambulance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toEndOf="@+id/btn_Ambulance"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Availablebeds"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn_Ambulance"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#EF3F3F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/ambulance"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/btn_Clinics"
+        app:layout_constraintVertical_bias="0.245"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn_Availablebeds"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#EF3F3F"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/available_beds"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toEndOf="@+id/btn_Clinics"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bloodbank"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/Options"
+        android:layout_width="184dp"
+        android:layout_height="41dp"
+        android:text="@string/options"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
